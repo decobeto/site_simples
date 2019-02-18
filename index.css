@@ -1,0 +1,138 @@
+html{
+  background-color: rgba(255, 255, 204, 1);
+  scroll-behavior: smooth;
+  -webkit-animation: fadein 2s; 
+  -moz-animation: fadein 2s; 
+   -ms-animation: fadein 2s; 
+    -o-animation: fadein 2s; 
+       animation: fadein 2s;
+}
+
+@keyframes fadein {
+  from { opacity: 0; }
+  to   { opacity: 1; }
+}
+
+@-moz-keyframes fadein {
+  from { opacity: 0; }
+  to   { opacity: 1; }
+}
+
+@-webkit-keyframes fadein {
+  from { opacity: 0; }
+  to   { opacity: 1; }
+}
+
+@-ms-keyframes fadein {
+  from { opacity: 0; }
+  to   { opacity: 1; }
+}
+
+@-o-keyframes fadein {
+  from { opacity: 0; }
+  to   { opacity: 1; }
+}
+
+.titulo{
+  font-family: 'Wendy One', sans-serif;
+  font-size: 5em;
+  color: rgba(30, 130, 76, 1);
+  text-align: center;
+}
+
+#menu ul {
+  padding:0px;
+  margin:auto;
+  list-style: none;
+}
+
+.menu_item {
+  display: inline-block;
+  padding: 2px 80px;
+  text-decoration: none;
+  line-height: 35px;
+  font-size: 20px;
+}
+
+a{
+  text-decoration: none;
+  color: rgba(30, 130, 76, 1); 
+  float:right;
+  position:relative;
+  font-family: 'Staatliches', cursive;
+}
+
+#box_menu{
+  text-align: center;
+}
+
+hr{
+  width: 85%;
+}
+
+.imagem{
+  padding-top: 7em;
+  text-align: center;
+}
+
+.titulos_sub{
+  font-size: 45px;
+  font-family: 'Wendy One', sans-serif;
+  color: rgba(30, 130, 76, 1);
+  margin-left: 110px;
+}
+
+.texto{
+  font-size: 20px;
+  width:85em;
+  padding: 1px 90px;
+  text-align: justify;
+  text-justify: inter-word;
+  font-family: 'Roboto', sans-serif;
+}
+
+.sobre{
+  text-align: "justify";
+}
+
+#sem_nada{
+  padding-top: 5em;
+}
+
+.especificacao_item{
+  font-size: 20px;
+  width:85em;
+  padding: 1px 90px;
+  text-align: justify;
+  text-justify: inter-word;
+  font-family: 'Roboto', sans-serif;
+  text-decoration: none;
+  list-style: none;
+}
+
+.sub_modelos_titulos{
+  font-size: 25px;
+  font-family: 'Wendy One', sans-serif;
+  color: rgba(30, 130, 76, 1);
+  margin-left: 110px;
+}
+
+.sub_modelos_texto{
+  font-size: 18px;
+  width:85em;
+  padding: 1px 90px;
+  text-align: justify;
+  text-justify: inter-word;
+  font-family: 'Roboto', sans-serif;
+  margin-left: 30px;
+}
+.img_modelos{
+  text-align: center;
+  padding-bottom: 40px;
+}
+
+#fim{
+  padding-top: 4em;
+  text-align: center;
+  font-family: 'Wendy One', sans-serif;
+}
